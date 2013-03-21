@@ -1,5 +1,8 @@
 Myprimaltools::Application.routes.draw do
 
+  resources :exercises
+
+
   get "pages/index"
 
   #match '/pages/:page' => "pages#page"
